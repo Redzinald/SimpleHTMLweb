@@ -1,2 +1,2 @@
 # SimpleHTMLweb
-Simple html web
+Simple HTML web code - lithuanian version
