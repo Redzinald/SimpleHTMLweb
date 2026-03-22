@@ -1,0 +1,124 @@
+/* Nustato bendrą šriftą visam puslapiui */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Antraštės h2 spalva */
+h2{
+	color: darkgreen;
+}
+
+/* Viršutinio div1 (autorius) nustatymai */
+.div1{
+	text-align:center;       /* Teksto centras */
+	background-color: orange; /* Fono spalva */
+	width: 900px;             /* Plotis */
+	margin: 0px auto;         /* Centruoja div puslapyje */
+}
+
+/* Pagrindinio teksto blokas p1 nustatymai */
+.p1{
+	text-align:justify;       /* Teksto išlyginimas per visą plotį */
+}
+
+/* Sąrašo / antro teksto blokas p2 */
+.p2{
+	text-align:left;           /* Tekstas išlygintas į kairę */
+	line-height: 2;            /* Eilučių aukštis */
+	color: darkred;            /* Teksto spalva */
+	font-family: Arial, Helvetica, sans-serif; /* Šriftas */
+	margin-bottom: 25px;       /* Tarpas po bloko */
+	column-count: 2;           /* Teksto padalijimas į 2 stulpelius */
+}
+
+/* Vidinio dėžutės #box nustatymai */
+#box{
+	width:750px;               /* Plotis */
+	background-color: lightblue; /* Fono spalva */
+	text-align:center;         /* Teksto centras viduje */
+	border: 3px double;        /* Apvado stilius ir storis */
+	margin: 0px auto;          /* Centruoja puslapyje */
+	padding-bottom:25px;       /* Apačios tarpas */
+	padding-left:25px;         /* Kairės pusės tarpas */
+	padding-right:25px;        /* Dešinės pusės tarpas */
+}
+
+/* Paveikslėlio nustatymai */
+.img1{
+	height: 200px;             /* Aukštis */
+	width: auto;               /* Plotis automatinis, kad nesikeistų proporcijos */
+	float: center;             /* Pabandymas centruoti (float neturi efekto centre) */
+	border: 4px solid green;   /* Apvadas aplink paveikslėlį */
+	opacity: 0.5;              /* Skaidrumas */
+}
+
+/* H3 antraštės klasė Temos */
+.Temos{
+	color: darkgreen;          /* Spalva */
+	text-align:left;            /* Teksto išlyginimas į kairę */
+	font-size: 22px;            /* Šrifto dydis */
+}
+
+/* Bendras teksto nustatymas klasei mytext */
+.mytext{
+	text-align:justify;         /* Teksto išlyginimas per visą plotį */
+	line-height: 2;             /* Eilučių aukštis */
+	color: darkred;             /* Teksto spalva */
+	font-family: Arial, Helvetica, sans-serif; /* Šriftas */
+	margin-bottom: 25px;        /* Tarpas po teksto bloko */
+}
+
+/* Teksto su stulpeliais nustatymai (nenaudojama tiesiogiai) */
+.mytextcollumns{
+	text-align:justify;
+	line-height: 2;
+	color: darkred;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 25px;
+	column-count: 2;            /* Teksto padalijimas į 2 stulpelius */
+}
+
+/* Spalvotas žodis klasėje zodziai */
+.zodziai{
+	font-size: 22px;            /* Šrifto dydis */
+	color: darkblue;            /* Spalva */
+}
+
+/* Horizontali linija */
+.horizontali_linija{
+	width: 220px;               /* Linijos plotis */
+	border: 6px dashed;         /* Linijos stilius ir storis */
+	color: darkblue;            /* Linijos spalva */
+	margin: 15px auto;          /* Centruoja horizontaliai ir prideda tarpą virš/apačios */
+}
+
+/* Nuoroda fakulteto / pagrindinė nuoroda tekste */
+.link_fakulteto{
+	text-decoration:none;       /* Pašalina pabraukimą */
+}
+
+/* Apatinės nuorodos stilius */
+.link_apatine {
+    color: black;             /* Teksto spalva */
+    text-decoration: underline; /* Pabraukimas */
+	font-size: 22px;           /* Šrifto dydis */
+}
+
+/* Apatinės nuorodos hover efektas */
+.link_apatine:hover {
+    color: darkgreen;          /* Spalvos pakeitimas užvedus pelę */
+    text-decoration: none;     /* Pašalina pabraukimą hover metu */
+	font-size: 22px;            /* Šrifto dydis hover metu */
+}
+
+/* Kairysis teksto išlyginimas */
+.left{
+	text-align:left;           /* Tekstas išlyginamas į kairę */
+}
+
+/* H3 antraštės klasė Temos (dubliuojama) */
+.Temos{
+	color: darkgreen;
+	text-align:left;
+	font-size: 22px;
+}
